@@ -20,3 +20,9 @@ export const Name = styled.span`
   font-weight: 500;
   font-family: Roboto;
 `;
+
+export const JobTitle = styled.span`
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Roboto;
+`;
