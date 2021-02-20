@@ -1,14 +1,18 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
-import { HeaderContainer, NameSection, ButtonSection } from "./styles";
+import {
+  HeaderContainer,
+  NameSection,
+  ButtonSection,
+  HeaderButton,
+} from "./styles";
 
 const Header = () => (
   <HeaderContainer>
     <NameSection>Fernando Donaire</NameSection>
     <ButtonSection>
-      <Button>About Me</Button>
-      <Button>Interests</Button>
-      <Button>Contact</Button>
+      <HeaderButton>About Me</HeaderButton>
+      <HeaderButton>Interests</HeaderButton>
+      <HeaderButton>Contact</HeaderButton>
     </ButtonSection>
   </HeaderContainer>
 );

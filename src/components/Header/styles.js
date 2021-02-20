@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Button from "@material-ui/core/Button";
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -17,4 +18,10 @@ export const NameSection = styled.div`
 export const ButtonSection = styled.div`
   justify-content: space-around;
   padding: 1rem;
+`;
+
+export const HeaderButton = styled(Button)`
+  &&.MuiButton-root {
+    color: white;
+  }
 `;
