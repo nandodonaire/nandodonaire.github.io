@@ -1,6 +1,10 @@
 import React from "react";
-import { ProfileContainer } from "./styles";
+import { ProfileContainer, ProfilePicture } from "./styles";
 
-const Profile = () => <ProfileContainer></ProfileContainer>;
+const Profile = () => (
+  <ProfileContainer>
+    <ProfilePicture src="profile-picture.jpeg" />
+  </ProfileContainer>
+);
 
 export default Profile;
