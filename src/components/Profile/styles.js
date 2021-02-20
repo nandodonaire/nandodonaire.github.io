@@ -11,6 +11,12 @@ export const ProfileContainer = styled.div`
 
 export const ProfilePicture = styled.img`
   border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
+`;
+
+export const Name = styled.span`
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Roboto;
 `;
