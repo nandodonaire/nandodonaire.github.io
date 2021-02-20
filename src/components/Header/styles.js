@@ -6,13 +6,13 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   height: 9vh;
   align-items: center;
-  background-color: #455d92;
+  background-color: #006666;
 `;
 
 export const NameSection = styled.div`
   font-size: 1.75rem;
   padding: 1rem;
-  color: white;
+  color: #ffffff;
 `;
 
 export const ButtonSection = styled.div`
@@ -22,6 +22,6 @@ export const ButtonSection = styled.div`
 
 export const HeaderButton = styled(Button)`
   &&.MuiButton-root {
-    color: white;
+    color: #ffffff;
   }
 `;
