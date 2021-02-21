@@ -36,3 +36,8 @@ export const HighlightsSectionTitle = styled.span`
   font-family: Roboto;
   font-weight: 500;
 `;
+
+export const StyledLink = styled.a`
+  color: #ffffff;
+  font-weight: 700;
+`;

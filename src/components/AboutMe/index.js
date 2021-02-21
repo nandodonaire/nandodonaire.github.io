@@ -5,6 +5,7 @@ import {
   TextContainer,
   TextSection,
   HighlightsSectionTitle,
+  StyledLink,
 } from "./styles";
 
 const AboutMe = () => (
@@ -23,8 +24,8 @@ const AboutMe = () => (
           and especially the interaction between the two.
           <br />
           <br />I love solving problems, constantly learning new techniques and
-          tools, and improving. I feel lucky to be able to do something I love
-          for a living.
+          tools, and improving my skills. I feel lucky to be able to do
+          something I love for a living.
         </p>
       </TextSection>
       <TextSection>
@@ -34,40 +35,44 @@ const AboutMe = () => (
             Lead developer on the MRIIDS project which shows Ebola and COVID 19
             reported case/death counts as well as future projections. Public
             GitHub repo available{" "}
-            <a
+            <StyledLink
               target="_blank"
               rel="noreferrer"
               href="https://github.com/healthmap/mriids2"
             >
               here
-            </a>
+            </StyledLink>
             .
           </li>
           <li>
             Full stack engineer on{" "}
-            <a
+            <StyledLink
               target="_blank"
               rel="noreferrer"
               href="https://www.vaccinefinder.org/"
             >
               VaccineFinder
-            </a>{" "}
+            </StyledLink>{" "}
             which is a free online tool built in collaboration with the CDC
             where users can find vaccines and vaccine availability near them.
             More information on VaccineFinder can be found{" "}
-            <a
+            <StyledLink
               target="_blank"
               rel="noreferrer"
               href="https://www.cdc.gov/vaccines/covid-19/reporting/vaccinefinder.html"
             >
               here.
-            </a>
+            </StyledLink>
           </li>
           <li>
             Full stack engineer on{" "}
-            <a target="_blank" rel="noreferrer" href="https://medfinder.org/">
+            <StyledLink
+              target="_blank"
+              rel="noreferrer"
+              href="https://medfinder.org/"
+            >
               MedFinder
-            </a>{" "}
+            </StyledLink>{" "}
             which is a free online tool where users can find medication
             availability near them.
           </li>
