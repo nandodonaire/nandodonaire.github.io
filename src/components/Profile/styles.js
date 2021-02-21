@@ -6,13 +6,19 @@ export const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 `;
 
 export const ProfilePicture = styled.img`
   border-radius: 50%;
   max-width: 250px;
   max-height: 250px;
+`;
+
+export const TextSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Name = styled.span`
