@@ -13,6 +13,8 @@ export const NameSection = styled.div`
   font-size: 1.75rem;
   padding: 1rem;
   color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
 `;
 
 export const ButtonSection = styled.div`
@@ -23,5 +25,6 @@ export const ButtonSection = styled.div`
 export const HeaderButton = styled(Button)`
   &&.MuiButton-root {
     color: #ffffff;
+    font-family: Roboto;
   }
 `;
