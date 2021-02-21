@@ -15,8 +15,15 @@ const AboutMe = () => (
       <TextSection>
         <p>
           I have 3 years experience working as a full stack software engineer
-          for the Innovation and Digital Health Accelerator at Boston Children's
-          Hospital.
+          for the{" "}
+          <StyledLink
+            target="_blank"
+            rel="noreferrer"
+            href="https://accelerator.childrenshospital.org/"
+          >
+            Innovation and Digital Health Accelerator
+          </StyledLink>{" "}
+          at Boston Children's Hospital .
           <br />
           <br />
           I've worked with Javascript (mainly React.js), Python (especially
