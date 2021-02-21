@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
   height: 55vh;
-  background-color: #6b6b6b;
+  background: url(https://i.imgur.com/dmpWwJ7.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  background-size: cover;
 `;
 
 export const ProfilePicture = styled.img`
