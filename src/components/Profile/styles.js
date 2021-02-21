@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
   height: 55vh;
-  background: url(https://i.imgur.com/dmpWwJ7.jpg);
+  background: url(volcan_arenal.jpeg);
   display: flex;
   flex-direction: column;
   align-items: center;
