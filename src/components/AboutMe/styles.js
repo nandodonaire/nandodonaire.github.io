@@ -29,7 +29,6 @@ export const TextSection = styled.div`
   color: #ffffff;
   font-size: 1rem;
   font-family: Roboto;
-  text-align: center;
 `;
 
 export const HighlightsSectionTitle = styled.span`

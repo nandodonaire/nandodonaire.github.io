@@ -29,6 +29,53 @@ const AboutMe = () => (
       </TextSection>
       <TextSection>
         <HighlightsSectionTitle>Highlights</HighlightsSectionTitle>
+        <ul>
+          <li>
+            Lead developer on the MRIIDS project which shows Ebola and COVID 19
+            reported case/death counts as well as future projections. Public
+            GitHub repo available{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/healthmap/mriids2"
+            >
+              here
+            </a>
+            .
+          </li>
+          <li>
+            Full stack engineer on{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.vaccinefinder.org/"
+            >
+              VaccineFinder
+            </a>{" "}
+            which is a free online tool built in collaboration with the CDC
+            where users can find vaccines and vaccine availability near them.
+            More information on VaccineFinder can be found{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.cdc.gov/vaccines/covid-19/reporting/vaccinefinder.html"
+            >
+              here.
+            </a>
+          </li>
+          <li>
+            Full stack engineer on{" "}
+            <a target="_blank" rel="noreferrer" href="https://medfinder.org/">
+              MedFinder
+            </a>{" "}
+            which is a free online tool where users can find medication
+            availability near them.
+          </li>
+          <li>
+            Completed a full-time Immersive Web Development program at General
+            Assembly Boston.
+          </li>
+        </ul>
       </TextSection>
     </TextContainer>
   </AboutMeContainer>
