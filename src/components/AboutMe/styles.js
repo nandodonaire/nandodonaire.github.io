@@ -4,8 +4,7 @@ export const AboutMeContainer = styled.div`
   background-color: #9dbcbc;
   height: 70vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 `;
 
 export const AboutMeTitle = styled.span`
@@ -14,5 +13,27 @@ export const AboutMeTitle = styled.span`
   font-weight: 500;
   color: #ffffff;
   text-decoration: underline;
-  padding: 1rem;
+  padding: 2rem;
+  text-align: center;
+`;
+
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 50rem;
+  justify-content: space-evenly;
+`;
+
+export const TextSection = styled.div`
+  width: 40%;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Roboto;
+  text-align: center;
+`;
+
+export const HighlightsSectionTitle = styled.span`
+  font-size: 1.5rem;
+  font-family: Roboto;
+  font-weight: 500;
 `;

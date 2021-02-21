@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
-  height: 50vh;
+  height: 55vh;
   background-color: #6b6b6b;
   display: flex;
   flex-direction: column;
