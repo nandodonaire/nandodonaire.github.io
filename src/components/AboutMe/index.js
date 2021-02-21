@@ -9,7 +9,7 @@ import {
 } from "./styles";
 
 const AboutMe = () => (
-  <AboutMeContainer>
+  <AboutMeContainer id="about-me">
     <AboutMeTitle>About Me</AboutMeTitle>
     <TextContainer>
       <TextSection>

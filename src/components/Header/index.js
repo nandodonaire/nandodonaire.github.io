@@ -10,7 +10,7 @@ const Header = () => (
   <HeaderContainer>
     <NameSection>Fernando Donaire</NameSection>
     <ButtonSection>
-      <HeaderButton>About Me</HeaderButton>
+      <HeaderButton href="#about-me">About Me</HeaderButton>
       <HeaderButton>Interests</HeaderButton>
       <HeaderButton>Contact</HeaderButton>
     </ButtonSection>
