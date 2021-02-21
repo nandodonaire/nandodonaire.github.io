@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
   background-color: #9dbcbc;
-  height: 70vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
 `;
