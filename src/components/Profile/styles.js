@@ -13,6 +13,7 @@ export const ProfilePicture = styled.img`
   border-radius: 50%;
   max-width: 250px;
   max-height: 250px;
+  border: 0.4em solid #9dbcbc;
 `;
 
 export const TextSection = styled.div`
