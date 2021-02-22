@@ -2,19 +2,9 @@ import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
   background-color: #9dbcbc;
-  height: 50vh;
+  height: 55vh;
   display: flex;
   flex-direction: column;
-`;
-
-export const AboutMeTitle = styled.span`
-  font-size: 2rem;
-  font-family: Roboto;
-  font-weight: 500;
-  color: #ffffff;
-  text-decoration: underline;
-  padding: 2rem;
-  text-align: center;
 `;
 
 export const TextContainer = styled.div`

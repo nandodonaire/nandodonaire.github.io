@@ -1,16 +1,16 @@
 import React from "react";
 import {
   AboutMeContainer,
-  AboutMeTitle,
   TextContainer,
   TextSection,
   HighlightsSectionTitle,
   StyledLink,
 } from "./styles";
+import { SectionTitle } from "../commonStyledComponents/sectionTitle";
 
 const AboutMe = () => (
   <AboutMeContainer id="about-me">
-    <AboutMeTitle>About Me</AboutMeTitle>
+    <SectionTitle>About Me</SectionTitle>
     <TextContainer>
       <TextSection>
         <p>
