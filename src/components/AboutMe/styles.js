@@ -1,12 +1,5 @@
 import styled from "styled-components";
 
-export const AboutMeContainer = styled.div`
-  background-color: #9dbcbc;
-  height: 55vh;
-  display: flex;
-  flex-direction: column;
-`;
-
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: row;

@@ -1,15 +1,15 @@
 import React from "react";
 import {
-  AboutMeContainer,
   TextContainer,
   TextSection,
   HighlightsSectionTitle,
   StyledLink,
 } from "./styles";
+import { SectionContainer } from "../commonStyledComponents/sectionContainer";
 import { SectionTitle } from "../commonStyledComponents/sectionTitle";
 
 const AboutMe = () => (
-  <AboutMeContainer id="about-me">
+  <SectionContainer height="55vh" backgroundColor="#9dbcbc" id="about-me">
     <SectionTitle>About Me</SectionTitle>
     <TextContainer>
       <TextSection>
@@ -90,7 +90,7 @@ const AboutMe = () => (
         </ul>
       </TextSection>
     </TextContainer>
-  </AboutMeContainer>
+  </SectionContainer>
 );
 
 export default AboutMe;
