@@ -9,7 +9,11 @@ import { SectionContainer } from "../commonStyledComponents/sectionContainer";
 import { SectionTitle } from "../commonStyledComponents/sectionTitle";
 
 const AboutMe = () => (
-  <SectionContainer height="55vh" backgroundColor="#9dbcbc" id="about-me">
+  <SectionContainer
+    height="55vh"
+    backgroundColor="#9dbcbc"
+    id="about-me-section"
+  >
     <SectionTitle>About Me</SectionTitle>
     <TextContainer>
       <TextSection>
