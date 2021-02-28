@@ -1,7 +1,7 @@
 import React from "react";
-import { HighlightsSectionTitle } from "./styles";
 import { SectionContainer } from "../commonStyledComponents/sectionContainer";
 import { SectionTitle } from "../commonStyledComponents/sectionTitle";
+import { SectionSubTitle } from "../commonStyledComponents/sectionSubTitle";
 import { TextContainer } from "../commonStyledComponents/textContainer";
 import { TextSection } from "../commonStyledComponents/textSection";
 import { StyledLink } from "../commonStyledComponents/styledLink";
@@ -35,7 +35,7 @@ const AboutMe = () => (
         </p>
       </TextSection>
       <TextSection fontColor="#845007">
-        <HighlightsSectionTitle>Highlights</HighlightsSectionTitle>
+        <SectionSubTitle>Highlights</SectionSubTitle>
         <ul>
           <li>
             Lead developer on the MRIIDS project which shows Ebola and COVID 19
