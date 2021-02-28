@@ -9,7 +9,7 @@ export const TextContainer = styled.div`
 
 export const TextSection = styled.div`
   width: 40%;
-  color: #3b4660;
+  color: #845007;
   font-size: 1.1rem;
   font-family: Roboto;
 `;
@@ -21,6 +21,6 @@ export const HighlightsSectionTitle = styled.span`
 `;
 
 export const StyledLink = styled.a`
-  color: #3b4660;
+  color: #845007;
   font-weight: 700;
 `;
