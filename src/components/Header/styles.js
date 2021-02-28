@@ -10,11 +10,22 @@ export const HeaderContainer = styled.div`
 `;
 
 export const NameSection = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const NameSectionText = styled.div`
   font-size: 1.75rem;
   padding: 1rem;
   color: #cd8371;
   font-family: Roboto;
   font-weight: 500;
+`;
+
+export const IconContainer = styled.div`
+  font-size: 1.3rem;
+  padding: 0.5rem;
 `;
 
 export const ButtonSection = styled.div`
