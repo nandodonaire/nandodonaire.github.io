@@ -10,8 +10,8 @@ const Header = () => (
   <HeaderContainer>
     <NameSection>Fernando Donaire</NameSection>
     <ButtonSection>
-      <HeaderButton href="#about-me-section">About Me</HeaderButton>
-      <HeaderButton href="#interests-section">Interests</HeaderButton>
+      <HeaderButton href="#about-me">About Me</HeaderButton>
+      <HeaderButton href="#interests">Interests</HeaderButton>
       <HeaderButton>Contact</HeaderButton>
     </ButtonSection>
   </HeaderContainer>

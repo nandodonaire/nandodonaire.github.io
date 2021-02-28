@@ -14,7 +14,7 @@ export const ProfilePicture = styled.img`
   border-radius: 50%;
   max-width: 300px;
   max-height: 300px;
-  border: 0.4em solid #9dbcbc;
+  border: 0.4em solid #3b4660;
 `;
 
 export const TextSection = styled.div`
@@ -27,12 +27,12 @@ export const Name = styled.span`
   font-size: 2rem;
   font-weight: 500;
   font-family: Roboto;
-  color: #ffffff;
+  color: #f2f3f0;
 `;
 
 export const JobTitle = styled.span`
   font-size: 1.5rem;
   font-weight: 400;
   font-family: Roboto;
-  color: #ffffff;
+  color: #f2f3f0;
 `;
