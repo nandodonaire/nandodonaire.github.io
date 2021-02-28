@@ -1,22 +1,21 @@
 import React from "react";
-import {
-  TextContainer,
-  TextSection,
-  HighlightsSectionTitle,
-  StyledLink,
-} from "./styles";
+import { HighlightsSectionTitle } from "./styles";
 import { SectionContainer } from "../commonStyledComponents/sectionContainer";
 import { SectionTitle } from "../commonStyledComponents/sectionTitle";
+import { TextContainer } from "../commonStyledComponents/textContainer";
+import { TextSection } from "../commonStyledComponents/textSection";
+import { StyledLink } from "../commonStyledComponents/styledLink";
 
 const AboutMe = () => (
   <SectionContainer height="55vh" backgroundColor="#f2f3f0" id="about-me">
     <SectionTitle fontColor="#845007">About Me</SectionTitle>
     <TextContainer>
-      <TextSection>
+      <TextSection fontColor="#845007">
         <p>
           I have 3 years experience working as a full stack software engineer
           for the{" "}
           <StyledLink
+            fontColor="#845007"
             target="_blank"
             rel="noreferrer"
             href="https://accelerator.childrenshospital.org/"
@@ -35,7 +34,7 @@ const AboutMe = () => (
           something I love for a living.
         </p>
       </TextSection>
-      <TextSection>
+      <TextSection fontColor="#845007">
         <HighlightsSectionTitle>Highlights</HighlightsSectionTitle>
         <ul>
           <li>
@@ -43,6 +42,7 @@ const AboutMe = () => (
             reported case/death counts as well as future projections. Public
             GitHub repo available{" "}
             <StyledLink
+              fontColor="#845007"
               target="_blank"
               rel="noreferrer"
               href="https://github.com/healthmap/mriids2"
@@ -54,6 +54,7 @@ const AboutMe = () => (
           <li>
             Full stack engineer on{" "}
             <StyledLink
+              fontColor="#845007"
               target="_blank"
               rel="noreferrer"
               href="https://www.vaccinefinder.org/"
@@ -64,6 +65,7 @@ const AboutMe = () => (
             where users can find vaccines and vaccine availability near them.
             More information on VaccineFinder can be found{" "}
             <StyledLink
+              fontColor="#845007"
               target="_blank"
               rel="noreferrer"
               href="https://www.cdc.gov/vaccines/covid-19/reporting/vaccinefinder.html"
@@ -74,6 +76,7 @@ const AboutMe = () => (
           <li>
             Full stack engineer on{" "}
             <StyledLink
+              fontColor="#845007"
               target="_blank"
               rel="noreferrer"
               href="https://medfinder.org/"
