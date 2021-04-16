@@ -5,4 +5,5 @@ export const TextContainer = styled.div`
   flex-direction: row;
   height: 50rem;
   justify-content: space-evenly;
+  overflow: hidden;
 `;
