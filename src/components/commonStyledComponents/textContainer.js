@@ -5,5 +5,10 @@ export const TextContainer = styled.div`
   flex-direction: row;
   height: 50rem;
   justify-content: space-evenly;
-  overflow: hidden;
+  overflow: auto;
+  @media screen and (max-width: 630px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 `;
