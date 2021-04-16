@@ -1,10 +1,10 @@
 import React from "react";
-import { SectionContainer } from "../commonStyledComponents/sectionContainer";
-import { SectionTitle } from "../commonStyledComponents/sectionTitle";
-import { SectionSubTitle } from "../commonStyledComponents/sectionSubTitle";
-import { TextContainer } from "../commonStyledComponents/textContainer";
-import { TextSection } from "../commonStyledComponents/textSection";
-import { StyledLink } from "../commonStyledComponents/styledLink";
+import { SectionContainer } from "../CommonStyledComponents/SectionContainer";
+import { SectionTitle } from "../CommonStyledComponents/SectionTitle";
+import { SectionSubTitle } from "../CommonStyledComponents/SectionSubTitle";
+import { TextContainer } from "../CommonStyledComponents/TextContainer";
+import { TextSection } from "../CommonStyledComponents/TextSection";
+import { StyledLink } from "../CommonStyledComponents/StyledLink";
 
 const AboutMe = () => (
   <SectionContainer height="55vh" backgroundColor="#f2f3f0" id="about-me">

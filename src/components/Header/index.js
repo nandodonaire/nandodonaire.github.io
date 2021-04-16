@@ -7,7 +7,7 @@ import {
   ButtonSection,
   HeaderButton,
 } from "./styles";
-import { StyledLink } from "../commonStyledComponents/styledLink";
+import { StyledLink } from "../CommonStyledComponents/StyledLink";
 
 const Header = () => (
   <HeaderContainer>
