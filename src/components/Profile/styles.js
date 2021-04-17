@@ -35,4 +35,5 @@ export const JobTitle = styled.span`
   font-weight: 400;
   font-family: Roboto;
   color: #f2f3f0;
+  text-align: center;
 `;
