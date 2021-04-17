@@ -38,9 +38,17 @@ const AboutMe = () => (
         <SectionSubTitle>Highlights</SectionSubTitle>
         <ul>
           <li>
-            Lead developer on the MRIIDS project which shows Ebola and COVID 19
-            reported case/death counts as well as future projections. Public
-            GitHub repo available{" "}
+            Lead engineer on the{" "}
+            <StyledLink
+              fontColor="#845007"
+              target="_blank"
+              rel="noreferrer"
+              href="https://mriids.org/"
+            >
+              MRIIDS
+            </StyledLink>{" "}
+            project which shows Ebola and COVID 19 reported case/death counts as
+            well as future projections. Public GitHub repo available{" "}
             <StyledLink
               fontColor="#845007"
               target="_blank"
