@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nandodonaire.github.io/static/css/main.24fa35af.chunk.css",
+    "main.js": "/nandodonaire.github.io/static/js/main.39ea5cee.chunk.js",
+    "main.js.map": "/nandodonaire.github.io/static/js/main.39ea5cee.chunk.js.map",
+    "runtime-main.js": "/nandodonaire.github.io/static/js/runtime-main.3cb70064.js",
+    "runtime-main.js.map": "/nandodonaire.github.io/static/js/runtime-main.3cb70064.js.map",
+    "static/css/2.42ec4da9.chunk.css": "/nandodonaire.github.io/static/css/2.42ec4da9.chunk.css",
+    "static/js/2.9500d7a4.chunk.js": "/nandodonaire.github.io/static/js/2.9500d7a4.chunk.js",
+    "static/js/2.9500d7a4.chunk.js.map": "/nandodonaire.github.io/static/js/2.9500d7a4.chunk.js.map",
+    "static/js/3.96f3de88.chunk.js": "/nandodonaire.github.io/static/js/3.96f3de88.chunk.js",
+    "static/js/3.96f3de88.chunk.js.map": "/nandodonaire.github.io/static/js/3.96f3de88.chunk.js.map",
+    "index.html": "/nandodonaire.github.io/index.html",
+    "static/css/2.42ec4da9.chunk.css.map": "/nandodonaire.github.io/static/css/2.42ec4da9.chunk.css.map",
+    "static/css/main.24fa35af.chunk.css.map": "/nandodonaire.github.io/static/css/main.24fa35af.chunk.css.map",
+    "static/js/2.9500d7a4.chunk.js.LICENSE.txt": "/nandodonaire.github.io/static/js/2.9500d7a4.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/nandodonaire.github.io/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cb70064.js",
+    "static/css/2.42ec4da9.chunk.css",
+    "static/js/2.9500d7a4.chunk.js",
+    "static/css/main.24fa35af.chunk.css",
+    "static/js/main.39ea5cee.chunk.js"
+  ]
+}
